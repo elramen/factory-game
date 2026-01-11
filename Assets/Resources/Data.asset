@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9392b10e86a954418bce6199f86d9dbb, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  gridWidth: 51
+  gridHeight: 51
+  gridSize: 1
+  currentGoal: 0
+  currentTime: 0
+  totalStars: 0
+  starsSubGoal: 0
+  goalSeed: 137988686
+  goalAmount: 10
+  levelNr: 1
+  colors:
+  - {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0.38431373}
+  - {r: 0.2787469, g: 0.6792453, b: 0.2787469, a: 1}
+  - {r: 0.8867924, g: 0.7820287, b: 0.18823427, a: 1}
+  - {r: 0.23851903, g: 0.49615046, b: 0.754717, a: 1}
+  - {r: 0.68235296, g: 0.28235292, b: 0.30945256, a: 1}
+  _uiColors:
+  - name: Black
+    color: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
+  - name: White
+    color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
+  - name: Star 1
+    color: {r: 1, g: 0.92013705, b: 0, a: 1}
+  - name: Star 2
+    color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+  - name: Color 1
+    color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+  - name: Grey 1
+    color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+  - name: Grid Color
+    color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+  - name: Grid Danger Color
+    color: {r: 1, g: 0, b: 0, a: 1}
+  _sprites:
+  - name: BeltEdge
+    sprite: {fileID: 1832462327, guid: 216f869bbd4404d129d6cec6c99f6c89, type: 3}
+  - name: BeltCorner
+    sprite: {fileID: 1004235667, guid: 216f869bbd4404d129d6cec6c99f6c89, type: 3}
+  - name: BeltStraight
+    sprite: {fileID: 1768003280, guid: 216f869bbd4404d129d6cec6c99f6c89, type: 3}
+  - name: BeltLonley
+    sprite: {fileID: 1726602250, guid: 216f869bbd4404d129d6cec6c99f6c89, type: 3}
+  - name: Store Miner
+    sprite: {fileID: 1075597991, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: Store Splitter
+    sprite: {fileID: 878384425, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: Store Rotator
+    sprite: {fileID: -1456714771, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: Store Merger
+    sprite: {fileID: -2118603159, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: Store Heart Cutter
+    sprite: {fileID: 238038430, guid: ad06376ac74064ec4864f6705c07b903, type: 3}
+  - name: Belt Icon 2
+    sprite: {fileID: 21300000, guid: 87afc56063cf7415cb5f389f8843c195, type: 3}
+  - name: BaseLayerMiner
+    sprite: {fileID: 703768830, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: BaseLayerEmptyBoi
+    sprite: {fileID: -234056713, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: BaseLayerMerger
+    sprite: {fileID: -695240148, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: BaseLayerMachine
+    sprite: {fileID: 1089261679, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: BaseLayerCorner
+    sprite: {fileID: -356374056, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: BaseLayerCorner2
+    sprite: {fileID: -686945314, guid: a8e8be1705b214accb79ce24cb8cdfba, type: 3}
+  - name: Square
+    sprite: {fileID: 7482667652216324306, guid: a50ed4f3080b04af8b4b3adcb1d03abb, type: 3}
+  - name: Circle
+    sprite: {fileID: -2413806693520163455, guid: c7e82022f0ed84d64a50ed895902cbda, type: 3}
+  - name: Finger Icon
+    sprite: {fileID: 1017852075, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Belt Icon
+    sprite: {fileID: 701661849, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Store Icon
+    sprite: {fileID: 981197129, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Trash Icon
+    sprite: {fileID: 1317226996, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Miner Icon
+    sprite: {fileID: 702586072, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Cutter Icon
+    sprite: {fileID: 1121549761, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Rotator Icon
+    sprite: {fileID: -621407013, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Merger Icon
+    sprite: {fileID: 1950162920, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Heart Icon
+    sprite: {fileID: -1191251455, guid: 606ff16f0a2df4da286583fe1dd801a7, type: 3}
+  - name: Resource 1
+    sprite: {fileID: 71218310, guid: ddd074d07d45ebc47a20643c6acc22e5, type: 3}
+  - name: Resource 2
+    sprite: {fileID: -1341688533, guid: ddd074d07d45ebc47a20643c6acc22e5, type: 3}
+  - name: Resource 3
+    sprite: {fileID: 1583309317, guid: ddd074d07d45ebc47a20643c6acc22e5, type: 3}
+  _prefabs:
+  - name: Trash Overlay
+    gameObject: {fileID: 218761043255147814, guid: 85987ce05f2534b3cabfaff2cc2b1a15, type: 3}
+  - name: Building Button
+    gameObject: {fileID: 6591991114021760165, guid: 0d51e938b0cbc49dcac07360f89cc691, type: 3}
+  - name: Building Button Spacer
+    gameObject: {fileID: 6591991114021760165, guid: 676ece8afa3034f358eff3623b12c459, type: 3}
+  - name: Selector
+    gameObject: {fileID: 51955434194627418, guid: 2f739cffc3aea485fabd9c840cd40d15, type: 3}
+  _buildings:
+  - name: Belt
+    gameObject: {fileID: 9215004994999309966, guid: 7bdd4b3ead07a41309925a3634b4408b, type: 3}
+  - name: Miner
+    gameObject: {fileID: 196751961610433051, guid: 092516e26df6b81bc89a0b32ed835566, type: 3}
+  - name: Vertical Splitter
+    gameObject: {fileID: 8428318135599245750, guid: 9a2aab8415f749148a467fabe7046745, type: 3}
+  - name: Rotator
+    gameObject: {fileID: 4115725602723985456, guid: 2293fa950d3b44f70af20ce043253f18, type: 3}
+  - name: Merger
+    gameObject: {fileID: 8428318135599245750, guid: d59620caf913d884da0e4899550cda58, type: 3}
+  - name: Empty Boi
+    gameObject: {fileID: 196751961610433051, guid: 1c3747768a1b4e14e93f8d984882d7fc, type: 3}
+  - name: Base
+    gameObject: {fileID: 563242517997726490, guid: a8579b549e6df461f9d3786e385e46a9, type: 3}
+  - name: Dummy Belt
+    gameObject: {fileID: 9215004994999309966, guid: 4867fa3a704b82a4aa13c2d8a310e667, type: 3}
+  - name: Base Belts
+    gameObject: {fileID: 2346716673384906549, guid: f7fa8f7dbfa7a43479e167ce868120b2, type: 3}
+  - name: Progress Bar
+    gameObject: {fileID: 4101407232830096823, guid: a08a1437b633048eea8d7489da227673, type: 3}
+  - name: Heart Cutter
+    gameObject: {fileID: 196751961610433051, guid: 70ac9ee7a042e492b8cbfd0cdb83dd80, type: 3}
+  _resources:
+  - name: Resource0
+    gameObject: {fileID: 1916401568526048579, guid: 57cc215cce3d945e399a9b66e7e778a9, type: 3}
+  _resourcesInGround:
+  - name: ResourceInGround0
+    gameObject: {fileID: 2894475300136587606, guid: 07476624239f12445995facf3c7bb574, type: 3}
